@@ -1,0 +1,20 @@
+checked --> atender dsd el codigo --> tiempo de compilacion
+		--> heredan directamente de la clase Exception
+	--> IOException
+	--> SQLException
+	--> etc.
+
+unchecked 	--> no es necesaria la atencion -> tiempo de ejecucion
+			--> NO heredan de la clase Exception
+	--> ArithmeticException
+	--> NullPointerException
+	--> IndexOfBoundsException
+	--> etc.
+
+Excepciones de usuario 	--> son siempre checked
+						--> heredan de Exception
+
+
+printStackTrace() 	--> se ejecuta al lanzarse una excepcion
+					--> indica tipo de exception
+					--> indica en q linea se produce
